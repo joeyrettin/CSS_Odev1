@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#social{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    font-size: 40px;
+    text-align: left;
+    color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    letter-spacing: 0.5px;
+
+
+}
+.list{
+
+    display: flex;
+    margin-right: 1rem;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    float: right;
+    list-style: none;
+    justify-content: flex-end;
+    z-index: 0;
+    position: sticky;
+    top: 0;
+    color: cornsilk;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    color: #545454;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.5px;
+
+    background-color: burlywood;
+}
